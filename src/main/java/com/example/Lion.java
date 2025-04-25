@@ -18,6 +18,10 @@ public class Lion {
 
     Feline feline = new Feline();
 
+    public Lion(Feline feline){               //конструктор для теста
+        this.feline=feline;
+    }
+
     public int getKittens() {
         return feline.getKittens();
     }
